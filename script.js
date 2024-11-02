@@ -1,14 +1,8 @@
-/* function toggleText(){
-    const output=document.getElementById("output"); if (output.style.display=== "none") {
-       output.style.display="block"; 
-  } 
- }
-*/
 function toggleText() {
-            const output = document.getElementById("output");
-            if (output.style.display === "none" || output.style.display === "") {
-                output.style.display = "block";
-            } else {
-                output.style.display = "none";
-            }
-        }
+    const extraContent = document.getElementById("extraContent");
+    if (extraContent.style.display === "none") {
+        extraContent.style.display = "block";
+    } else {
+        extraContent.style.display = "none";
+    }
+}
